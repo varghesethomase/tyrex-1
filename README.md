@@ -2,7 +2,7 @@
 Mozilla Kreala Portal
 
 
-Inital pLanning
+Inital Planning
 ===============
 
 ## Technologies using  in this project :
@@ -31,6 +31,11 @@ Inital pLanning
   - Verify identity of user
   - Add user to database
   - Create profile page for user
+    - Add space for users to write current status and comments
+    - Add option to set privacy of profile
+    - List the last 10 users who viewed profile recently
+    - Show up coming events and news updates
+    - Add a space to display something informative ( Eg: What is Node.js? )
 - Implement User groups : Public, Users, Admin
 - Create Admin panel
   - User control panel
@@ -48,6 +53,13 @@ Inital pLanning
 
 - Create chat for users
 - Create groups
+  - Add group control panel for Admin
+    - Groups search option
+    - Groups list
+    - Groups Add/Approval/Remove option
+  - Add option to create new group to menu
+  - Put new Group request to pending stauts for admin approval
+  - Create the requested group on admin approval
 + Add more here.
 
 
