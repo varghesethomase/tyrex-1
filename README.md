@@ -21,7 +21,7 @@ Inital pLanning
 
 ## Target :
 
-** Version 1.0.0.0 **
+**Version 1.0.0.0**
 
 - Install technologies required
 - Create home page
@@ -44,7 +44,7 @@ Inital pLanning
     - Add tags for news
 
 
-** Version 2.0.0.0 **
+**Version 2.0.0.0**
 
 - Create chat for users
 - Create groups
