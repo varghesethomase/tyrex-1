@@ -1,0 +1,81 @@
+.btn:focus {
+	box-shadow: 0px 0px 10px #fff;
+	outline: none !important;
+}
+a:focus {
+	outline: none !important;
+}
+.navbar-toggle{
+	border-radius: 4px;
+}
+.navbar-toggle:focus,.navbar-toggle:hover{
+	border: 1px solid #fff;
+}
+
+.btn-hollow{
+	color:#fff;
+	min-width: 150px;
+	border: 2px solid #fff;
+	background-color:rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.btn-login{
+	color:#fff;
+	min-width: 100px;
+	border: 2px solid #fff;
+	background-color:rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+	padding: 4px;
+	margin: 4px;
+}
+
+.btn-login:focus, .btn-login:hover,.btn-hollow:focus, .btn-hollow:hover{
+	box-shadow: 0px 0px 10px #fff;
+	color:#fff;
+}
+
+.btn-login:active,.btn-hollow:active{
+	color:#000;
+	background-color:rgba(255, 255, 255, 1);
+}
+
+.form-control{
+	height: 30px;
+	padding:4px;
+	margin: 2px;
+	color:#ddd;
+	background-color:rgba(255, 255, 255, 0.2);
+}
+
+.form-control:focus{
+	color:#000;
+	background-color:rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 4px #fff;
+}
+
+.top-vertical-line{
+	border-top: 1px solid #ddd;
+}
+
+.right-vertical-line{
+	border-right: 1px solid #ddd;
+}
+
+.bottom-vertical-line{
+	border-bottom: 1px solid #ddd;
+}
+
+.left-vertical-line{
+	border-left: 1px solid #ddd;
+}
+
+.tagline2{
+	padding-top: 30px;
+	font-size: 1.4em;
+	line-height: 1.3em;
+	font-weight: bold;
+	margin-bottom: 20px;	
+	border-top: 1px solid #ddd;
+}
