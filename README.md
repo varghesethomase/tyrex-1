@@ -1,9 +1,8 @@
-# tyrex
+tyrex
+=======
 Mozilla Kerala Portal
 
-
-Inital Planning
-===============
+# Inital Planning
 
 ## Technologies using  in this project :
 
@@ -16,6 +15,7 @@ Inital Planning
 - MariaDB (Database)
 - Redis (Web storage)
 - Forever (Production server deamon)
+- Bootstrap (CSS Framework)
 - Coffee Script (Optional suggestion)
 
 
@@ -84,10 +84,6 @@ Inital Planning
 - Admin can approve working group creation
 - Admin can grant OpenBadges for verified users
 - Admin can add new updates in news pages
-
-
-
-
 
 
 * * *
