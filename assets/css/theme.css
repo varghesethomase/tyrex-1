@@ -1,3 +1,19 @@
+@media screen and (max-width: 770px){
+	.form-control{
+		max-width: 260px;
+		margin-bottom: 4px !important;
+	}
+	.navbar-header * div.row{
+		overflow: hidden;
+	}
+	.navbar-form{
+		margin: 0px;
+	}
+	.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header{
+		margin-right: 0px;		
+	}
+}
+
 .btn:focus {
 	box-shadow: 0px 0px 10px #fff;
 	outline: none !important;
@@ -28,7 +44,7 @@ a:focus {
 	background-color:rgba(255, 255, 255, 0.2);
 	border-radius: 5px;
 	padding: 4px;
-	margin: 4px;
+	margin: 2px;
 }
 
 .btn-login:focus, .btn-login:hover,.btn-hollow:focus, .btn-hollow:hover{
