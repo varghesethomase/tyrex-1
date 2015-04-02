@@ -2,8 +2,8 @@ tyrex
 =======
 Mozilla Kerala Portal
 
-# Inital Planning
-
+Inital Planning
+---------------
 ## Technologies using  in this project :
 
 - AngularJS (Frontend Framework)
