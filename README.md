@@ -1,5 +1,5 @@
 # tyrex
-Mozilla Kreala Portal
+Mozilla Kerala Portal
 
 
 Inital Planning

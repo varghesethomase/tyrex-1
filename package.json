@@ -1,9 +1,8 @@
 {
   "name": "tyrex",
-  "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
-  "keywords": [],
+  "version": "0.0.1",
+  "description": "Mozilla Kerala Website",
+  "keywords": ["mozilla","kerala","tyrex","portal"],
   "dependencies": {
     "sails": "~0.11.0",
     "sails-disk": "~0.10.0",
@@ -25,13 +24,17 @@
   },
   "scripts": {
     "start": "node app.js",
-    "debug": "node debug app.js"
+    "debug": "node debug app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nikz/tyrex.git"
+    "url": "git://github.com/CodeFaber/tyrex.git"
   },
-  "author": "nikz",
-  "license": ""
+  "author": "MozK",
+  "license": "MPL",
+  "bugs": {
+    "url": "https://github.com/CodeFaber/tyrex/issues"
+  }
 }
