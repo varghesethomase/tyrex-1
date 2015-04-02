@@ -24,7 +24,7 @@ Inital Planning
 **Version 1.0.0.0**
 
 - [x] Install technologies required
-- [ ] Create home page
+- [ ] Create home page ( working )
 - [ ] Create about page
 - [ ] Create news updates page
 - [ ] Create a form for mozillians in kerala to sign up.
