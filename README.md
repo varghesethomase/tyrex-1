@@ -23,43 +23,43 @@ Inital Planning
 
 **Version 1.0.0.0**
 
-- Install technologies required
-- Create home page
-- Create about page
-- Create news updates page
-- Create a form for mozillians in kerala to sign up.
-  - Verify identity of user
-  - Add user to database
-  - Create profile page for user
-    - Add space for users to write current status and comments
-    - Add option to set privacy of profile
-    - List the last 10 users who viewed profile recently
-    - Show up coming events and news updates
-    - Add a space to display something informative ( Eg: What is Node.js? )
-- Implement User groups : Public, Users, Admin
-- Create Admin panel
-  - User control panel
-    - User search option
-    - User list
-    - User ban/unban option
-    - User sign-in approval option
-  - News Update panel
-    - List existing news
-    - Add/Edit/Remove news option
-    - Add tags for news
+- [ ] Install technologies required
+- [ ] Create home page
+- [ ] Create about page
+- [ ] Create news updates page
+- [ ] Create a form for mozillians in kerala to sign up.
+  - [ ] Verify identity of user
+  - [ ] Add user to database
+  - [ ] Create profile page for user
+    - [ ] Add space for users to write current status and comments
+    - [ ] Add option to set privacy of profile
+    - [ ] List the last 10 users who viewed profile recently
+    - [ ] Show up coming events and news updates
+    - [ ] Add a space to display something informative ( Eg: What is Node.js? )
+- [ ] Implement User groups : Public, Users, Admin
+- [ ] Create Admin panel
+  - [ ] User control panel
+    - [ ] User search option
+    - [ ] User list
+    - [ ] User ban/unban option
+    - [ ] User sign-in approval option
+  - [ ] News Update panel
+    - [ ] List existing news
+    - [ ] Add/Edit/Remove news option
+    - [ ] Add tags for news
 
 
 **Version 2.0.0.0**
 
-- Create chat for users
-- Create groups
-  - Add group control panel for Admin
-    - Groups search option
-    - Groups list
-    - Groups Add/Approval/Remove option
-  - Add option to create new group to menu
-  - Put new Group request to pending stauts for admin approval
-  - Create the requested group on admin approval
+- [ ] Create chat for users
+- [ ] Create groups
+  - [ ] Add group control panel for Admin
+    - [ ] Groups search option
+    - [ ] Groups list
+    - [ ] Groups Add/Approval/Remove option
+  - [ ] Add option to create new group to menu
+  - [ ] Put new Group request to pending stauts for admin approval
+  - [ ] Create the requested group on admin approval
 + Add more here.
 
 
@@ -84,3 +84,12 @@ Inital Planning
 - Admin can approve working group creation
 - Admin can grant OpenBadges for verified users
 - Admin can add new updates in news pages
+
+
+
+
+
+
+* * *
+
+a [Sails](http://sailsjs.org) application
