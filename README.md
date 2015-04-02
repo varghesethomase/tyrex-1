@@ -23,7 +23,7 @@ Inital Planning
 
 **Version 1.0.0.0**
 
-- [ ] Install technologies required
+- [x] Install technologies required
 - [ ] Create home page
 - [ ] Create about page
 - [ ] Create news updates page
