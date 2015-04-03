@@ -103,22 +103,7 @@
     <script src="/js/dependencies/modernizr.min.js"></script>
     <script src="/js/angular.app.js"></script>
     <script src="/js/bigvideo.js"></script>
-    <script src="/js/magister.js"></script>
+    <script src="/js/theme.js"></script>
     <!--SCRIPTS END-->
-    <script>
-      $(function() {
-        var BV = new $.BigVideo({useFlashForFirefox:false});
-        BV.init();
-        if (Modernizr.touch) {
-          BV.show('/images/lightning.jpg');
-        } else {
-          BV.show([
-              { type: "video/mp4",  src: "/videos/lightning.mp4" },
-              { type: "video/webm", src: "/videos/lightning.webm" }/*,
-              { type: "video/ogg",  src: "http://video-js.zencoder.com/oceans-clip.ogv" }*/
-          ],{ambient:true});
-        }
-      });
-    </script>
   </body>
 </html>

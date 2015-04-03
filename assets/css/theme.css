@@ -1,6 +1,11 @@
+
+html, body{
+	background-color:rgb(0,0,0);
+}
+
 @media screen and (max-width: 770px){
-	.form-control{
-		max-width: 260px;
+	.navbar-header .form-control{
+		max-width: 280px;
 		margin-bottom: 4px !important;
 	}
 	.navbar-header * div.row{
@@ -37,6 +42,15 @@ a:focus {
 	padding: 20px;
 }
 
+.btn-hollow-invert{
+	color:#000;
+	min-width: 150px;
+	background-color:#fff;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+	padding: 20px;
+}
+
 .btn-login{
 	color:#fff;
 	min-width: 100px;
@@ -45,6 +59,14 @@ a:focus {
 	border-radius: 5px;
 	padding: 4px;
 	margin: 2px;
+}
+
+.btn-hollow-invert:focus,.btn-hollow-invert:hover{
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn-hollow-invert:active{
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4) inset;
 }
 
 .btn-login:focus, .btn-login:hover,.btn-hollow:focus, .btn-hollow:hover{
@@ -57,7 +79,7 @@ a:focus {
 	background-color:rgba(255, 255, 255, 1);
 }
 
-.form-control{
+.navbar-header .form-control{
 	height: 30px;
 	padding:4px;
 	margin: 2px;
@@ -65,7 +87,8 @@ a:focus {
 	background-color:rgba(255, 255, 255, 0.2);
 }
 
-.form-control:focus{
+
+.navbar-header .form-control:focus{
 	color:#000;
 	background-color:rgba(255, 255, 255, 1);
 	box-shadow: 0px 0px 4px #fff;
@@ -87,11 +110,38 @@ a:focus {
 	border-left: 1px solid #ddd;
 }
 
-.tagline2{
-	padding-top: 30px;
-	font-size: 1.4em;
-	line-height: 1.3em;
-	font-weight: bold;
-	margin-bottom: 20px;	
-	border-top: 1px solid #ddd;
+div.signupbox{
+	background-color:rgba(250, 250, 250, 0.9);
+/* 	height: 0px;
+	padding: 1px 150px 0px; */
+	margin-bottom: 50px;
+	color: #333;
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+div.signupbox h2{
+	padding-bottom: 60px;
+}
+
+#signup_submit_btn, #signup_cancel_btn{
+	margin-top:30px;
+}
+
+nav.mainmenu{
+	background-color:rgba(0, 0, 0, 0.9);
+	height: 100px;
+	z-index: 100000;
+}
+
+.FormOpen{
+	height: 1000px;
+	padding: 20px 150px;
+	margin-top: -400px;
+}
+
+.FormClose{
+	height: 0px;
+	padding: 1px 150px 0px;
+	margin-top: 0px;
 }
